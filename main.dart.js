@@ -59052,7 +59052,8 @@ case 5:k=A.a(["Battle of Mind (BAT)","Unilever's Future Leaders' League (UFLL)",
 for(a7=o.a,j=a7.length,i=0;i<a7.length;a7.length===j||(0,A.U)(a7),++i){h=a7[i]
 if(B.b.iU(k,new A.aoc(h))){g=h.b
 if(g==="Top 1"||g==="Top 2"||g==="Champion"||g==="V\xf4 \u0111\u1ecbch"||g==="Qu\xe1n qu\xe2n"||g==="\xc1 qu\xe2n"||g==="Runner-up"){B.b.v(o.r,5)
-continue}else{for(f=3;f<11;++f)if(g==="Top "+f){B.b.v(o.r,2)
+continue}else{for(f=3;f<6;++f)if(g==="Top "+f){B.b.v(o.r,5)
+break}for(f=6;f<10;++f)if(g==="Top "+f){B.b.v(o.r,2)
 break}continue}}else B.b.v(o.r,0)}for(a7=o.c,j=a7.length,g=a9.a,e=a9===B.b1,d=0,i=0;c=a7.length,i<c;a7.length===j||(0,A.U)(a7),++i){b=a7[i]
 c=b.b
 if(c==null||b.c==null){B.b.v(o.f,0)
